@@ -25,7 +25,6 @@ export default class fruit {
     this.isEaten = false;
     if (Math.random() > 0.8) this.israinbow = true;
     else this.israinbow = false;
-    // this.israinbow = true;
   }
 
   draw(ctx) {
